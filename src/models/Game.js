@@ -1,6 +1,6 @@
-MyMediatek.models.Game = (function () {
+    import { Media } from "./Media.js"
 
-    class Game extends MyMediatek.models.Media {
+    export class Game extends Media {
 
         constructor (title, releaseDate, rating, img, studio, nbPlayers, plot) {
             super(title, releaseDate, rating, img)
@@ -10,6 +10,3 @@ MyMediatek.models.Game = (function () {
         }
     }
 
-    return Game
-
-})()

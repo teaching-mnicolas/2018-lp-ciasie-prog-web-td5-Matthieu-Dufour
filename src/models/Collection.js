@@ -1,6 +1,5 @@
-MyMediatek.models.Collection = (function () {
 
-    class Collection {
+    export class Collection {
         constructor () {
             this.medias = []
         }
@@ -24,6 +23,28 @@ MyMediatek.models.Collection = (function () {
         }
     }
 
-    return Collection
 
-})()
+
+// export let medias = [];
+
+// export function addMedia(media){
+//     medias.push(media);
+// }
+
+// export function removeMedia(media){
+//     medias = medias.filter(function(other){
+//         return media !== other
+//     })
+// }
+
+// export function getNbMedias(){
+//     return medias.length
+// }
+
+// export function filter(filterFn){
+//     return medias.filter(filterFn)
+// }
+
+// export function value(){
+//     return medias
+// }
